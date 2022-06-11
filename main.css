@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#loading{
+    z-index: 99999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: url("https://www.vanishingpointcreative.com/bhiva/malignancy/app/assets/preloader.gif");
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+img{
+    float: left;
+}
+.slide{
+    overflow: hidden;
+}
+figure{
+    position: relative;
+    width: 500%;
+    animation-name: slider;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -200%;
+    }
+    85%{
+        left: -200%;
+    }
+    100%{
+        left:0;
+    }
+}
+ul{
+    display: grid;
+    grid-template-columns: 205px 70px 64px 57px 55px 528px 39px 75px 37px 45px 202px;
+    grid-template-rows: 53px;
+    align-items: center;
+    background-color: #fffefe;
+}
+#img1{
+    width: 170px;
+    margin-top: 3px;
+    margin-left: 6px;
+}
+#img1:hover{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    margin-top: 4px;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: rgb(170, 164, 164);
+
+}
+#img2{
+    width: 38px;
+    margin-top: 5px;
+}
+#img2:hover{
+    cursor: pointer;
+}
+#img3{
+    width: 25px;
+}
+#img3:hover{
+    cursor: pointer;
+    transition-duration: 800ms;
+}
+span{
+    color: #7c6dac;
+    font-size: 17px;
+    font-weight: bold;
+}
+#a1{
+    color: #7644d8;
+}
+#a2{
+    color: #7c6dac;
+}
+#a3{
+    color: #7c6dac;
+}
+#a4{
+    color: #7c6dac;
+}
+#img4{
+    width: 22px;
+}
+#img5{
+    width: 25px;
+}
+#btn1{
+    width: 164px;
+    border-radius: 20px;
+    background-color: #1ec6d4;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fffefe;
+    font-size: 18px;
+    border: none;
+    box-shadow: 1px 2px #888888;
+    padding: 6px 8px 6px 9px;
+    font-weight: bold;
+}
+#btn1:hover{
+    cursor: pointer;
+    background-color: #45d5e2ec;
+    transition-duration: 250ms;
+}
+/* Main Section */
+#img6{
+    width: 98.9vw;
+    height: 100vh;
+}
+#img7{
+    width: 98.9vw;
+    height: 100vh;
+}
+#img8{
+    width: 98.9vw;
+    height: 100vh;
+}
+/* Slides */
+.slides{
+    
+}
